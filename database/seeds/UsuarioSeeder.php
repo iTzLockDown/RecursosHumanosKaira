@@ -16,8 +16,8 @@ class UsuarioSeeder extends Seeder
             [
                 'name' 				=>	'Wilhelm Ruiz Taype',
                 'permiso'           => '1',
-                'email'				=>	'wilhelmrt@kairadevops.com',
-                'password'			=>	Hash::make('qweqwe123'),
+                'email'				=>	'wruiz@kairadevops.com',
+                'password'			=>	Hash::make('wruiz123'),
 
             ]
         );
