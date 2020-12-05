@@ -69,4 +69,15 @@ class AdministradorController extends Controller
         $usuarios = \App\User::pluck('email', 'id');
         return view ('Mensaje.create', compact('usuarios'));
     }
+
+
+    public function ListaUsuario()
+    {
+        $usuarios = \App\User::all();
+        return view ('Usuario.principal', compact('usuarios'));
+    }
+    public function CrearUsuario()
+    {
+        return view('Usuario.create');
+    }
 }

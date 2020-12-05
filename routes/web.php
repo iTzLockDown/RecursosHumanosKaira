@@ -37,3 +37,11 @@ Route::get('/detallepuppey/{id}', 'AdministradorController@DetalleMascota')->nam
 Route::resource('/postulante','PostulanteController');
 
 Route::resource('/mensaje','MensajeController');
+
+
+Route::get('/principaluser', 'AdministradorController@ListaUsuario')->name('usuario');
+Route::get('/crearuser', 'AdministradorController@CrearUsuario')->name('crear.usuario');
+
+
+
+Route::resource('/user','UsuarioController');

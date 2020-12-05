@@ -166,7 +166,12 @@
                     <a class="nav-link" href="{{route('mensajes')}}">
                         <i class="nav-icon icon-check"></i> Mensajes</a>
                 </li>
-
+                @if(Auth::user()->permiso==1)
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{route('usuario')}}">
+                            <i class="nav-icon icon-user"></i> Usuarios</a>
+                    </li>
+                @endif
 
                 <li class="nav-item">
                     <a class="nav-link" href="#">
