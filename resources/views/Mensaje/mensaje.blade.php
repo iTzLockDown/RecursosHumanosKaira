@@ -11,7 +11,7 @@
     @endif
     <div class="card">
         <div class="card-header">
-            <i class="fa fa-user"></i> Registro de Postulantes
+            <i class="fa fa-user"></i> Registro de Mensajes
         </div>
 
         <div class="card-body">

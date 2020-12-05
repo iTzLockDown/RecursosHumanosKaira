@@ -47,7 +47,7 @@
     </button>
     <ul class="nav navbar-nav d-md-down-none">
         <li class="nav-item px-3">
-            <a class="nav-link" href="#">Muestra Estaciones</a>
+            <a class="nav-link" href="#">{{Auth::user()->name}}</a>
         </li>
 
 
@@ -140,18 +140,19 @@
                     <a class="nav-link" href="{{route('postular')}}">
                         <i class="nav-icon icon-present"></i> Postularme</a>
                 </li>
-
+                @if(Auth::user()->permiso==1)
                 <li class="nav-item">
                     <a class="nav-link" href="{{route('bandeja')}}">
                         <i class="nav-icon icon-user"></i> Postulantes</a>
                 </li>
+                @endif
 {{--                    <li class="nav-item">--}}
 {{--                        <a class="nav-link" href="{{route('importar')}}">--}}
 {{--                            <i class="nav-icon icon-user"></i> importar</a>--}}
 {{--                    </li>--}}
 
 
-                <li class="nav-item">
+                {{--<li class="nav-item">
                     <a class="nav-link" href="#">
                         <i class="nav-icon icon-user-following"></i> Personal</a>
                 </li>
@@ -160,7 +161,7 @@
                     <a class="nav-link" href="#">
                         <i class="nav-icon icon-control-start"></i> Areas</a>
                 </li>
-
+--}}
                 <li class="nav-item">
                     <a class="nav-link" href="{{route('mensajes')}}">
                         <i class="nav-icon icon-check"></i> Mensajes</a>

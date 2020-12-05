@@ -155,15 +155,5 @@ class UsuarioSeeder extends Seeder
             ]
         );
 
-        DB::table('users')->insert(
-
-            [
-                'name' 				=>	'Susan del Perú',
-                'permiso'           =>  '3',
-                'email'				=>	'sespinoza@kairadevops.com',
-                'password'			=>	Hash::make('sespinoza'),
-
-            ]
-        );
     }
 }
