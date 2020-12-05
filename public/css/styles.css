@@ -1,0 +1,302 @@
+body {
+    font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+ul li {
+    margin-bottom: 15px;
+}
+
+/* *************************************
+* ************ Font's ************
+* ************************************ */
+@font-face {
+    font-family: "ArsenalFD";
+    src: url(../fonts/fontsDowloand/Arsenal-Regular.ttf);
+}
+@font-face {
+    font-family: "EconomicaFD";
+    src: url(../fonts/fontsDowloand/Economica-Regular.ttf);
+}
+@font-face {
+    font-family: "ElMessiriFD";
+    src: url(../fonts/fontsDowloand/ElMessiri-Regular.ttf);
+}
+@font-face {
+    font-family: "HomenajeFD";
+    src: url(../fonts/fontsDowloand/Homenaje-Regular.ttf);
+}
+@font-face {
+    font-family: "OpenSansCondensedFD";
+    src: url(../fonts/fontsDowloand/OpenSansCondensed-Light.ttf);
+}
+@font-face {
+    font-family: "PragatiNarrowFD";
+    src: url(../fonts/fontsDowloand/PragatiNarrow-Regular.ttf);
+}
+@font-face {
+    font-family: "SairaFD";
+    src: url(../fonts/fontsDowloand/SairaExtraCondensed-Regular.ttf);
+}
+@font-face {
+    font-family: "DinnerNext";
+    src: url(../fonts/fontsDowloand/DINNextLTPro-Light.otf);
+}
+@font-face {
+    font-family: "BrandonText";
+    src: url(../fonts/fontsDowloand/BrandonText.otf);
+}
+/* *************************************
+* ************ Header First ************
+* ************************************ */
+#main-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #000  ;
+}
+#main-header-first {
+    flex-direction: row-reverse;
+}
+#line-first {
+    margin-top: -.94em;
+    border-bottom: 0.2em solid rgb(99,100,102);
+}
+#first-menu {
+    float: right;
+}
+#first-menu li a {
+    display: block;
+    font-size: 0.75em;
+    padding: 0.8em 0.9em;
+    margin: 0em;
+    text-decoration: none;
+    color: #fff;
+    font-family: "Noto Sans", sans-serif;
+    text-transform: uppercase;
+}
+#first-menu li a:hover
+{
+    background: #fff;
+    color: #000;
+}
+/* *************************************
+* ************ Header Second ************
+* ************************************ */
+#img-logo {
+    height: 3.5em;
+}
+#line-second {
+
+    border-bottom: 0.4em solid rgb(99,100,102);
+}
+#main-header-second {
+    margin-top: 0.8em;
+}
+#second-menu-left{
+
+}
+#second-menu-right{
+    display: block;
+    float: left;
+}
+#second-menu-right li a {
+    display: block;
+    font-size: 1.13em;
+    padding: 0.6em 0.9em;
+    margin: 0em;
+    text-decoration: none;
+    color: #fff;
+    font-family: BrandonText;
+    border-bottom:0.2em solid transparent;
+}
+
+#second-menu-right li a:hover
+{
+    border-bottom: 0.2em solid rgb(99,100,102);
+    transition: 1.5s;
+}
+
+/* *************************************
+* ************ Principal First *********
+* ************************************ */
+#principal-one{
+    display: block;
+    margin-top: 7.9em;
+
+}
+.carousel-item img
+{
+    height: 80.7vh;
+}
+/* *************************************
+* *********** Principal Second *********
+* ************************************ */
+#principal-two{
+    margin-top: -19.3vh;
+    height: 10em;
+    background-color: #fff;
+}
+#principal-two div div div{
+
+}
+#pt-sbox1
+{
+    background: #f2f2f2;
+    margin-left: -0.6em;
+    margin-right: 0.2em;
+    margin-top: 0.3em;
+    height: 9.4em;
+    margin-bottom: 0.3em;
+
+}
+#pt-sbox2
+{
+    background: #f2f2f2;
+    margin-right: 0.2em;
+    margin-top: 0.3em;
+    height: 9.4em;
+    margin-bottom: 0.3em;
+
+}
+#pt-sbox3
+{
+    background: #f2f2f2;
+    margin-top: 0.3em;
+    height: 9.4em;
+    margin-bottom: 0.3em;
+}
+/* *************************************
+* *********** Principal Three **********
+* ************************************ */
+
+#principal-three
+{
+    margin-top: 130px;
+    height: 87.5vh;
+    background: #f7f7f7;
+}
+#pt-tittle-sup
+{
+    text-align: center;
+    font-size: 3em;
+    font-weight: 1000;
+    text-transform: uppercase;
+    font-family: BrandonText;
+}
+/*#principal-4{*/
+    /*margin-top: -19.3vh;*/
+    /*height: 100vh;*/
+    /*background-color: #818182;*/
+/*}*/
+/* *************************************
+* *************** Footer ***************
+* ************************************ */
+
+footer
+{
+margin-top: 50px;
+    background: #000 50% 0 repeat-y fixed;
+    background-size: cover;
+
+}
+#footer-main-first
+{
+    padding-top: 1.5em;
+    font-family: DinnerNext;
+
+}
+#footer-main-first div div a
+{
+    color: #fff;
+    font-family: ElMessiriFD;
+    text-decoration: none;
+}
+#footer-main-first div div a:hover
+{
+    color: #818182;
+}
+.footer-qs-eti ul li
+{
+    margin-top: 0.5em;
+    margin-bottom: -0.5em;
+    margin-left: 1em;
+    font-family: ElMessiriFD;
+    font-size: 0.8em;
+}
+
+
+#line-footer
+{
+    margin-top: 1.3em;
+    margin-bottom: 0.2em;
+    border-bottom: 0.16em solid rgb(99,100,102);
+}
+#footer-second-menu
+{
+    position: relative;
+    padding-bottom: 1.5em;
+}
+#footer-second-menu div div a
+{
+    color: #fff;
+    font-family: ElMessiriFD;
+    font-size: 0.9em;
+    text-decoration: none;
+}
+#footer-second-menu div div a:hover
+{
+    color: #818182;
+}
+#footer-rs ul li a i{
+    color: #fff;
+    font-size: 1.8em;
+    margin-left: 0.15em;
+    margin-right: 0.1em;
+}
+#fb:hover
+{
+    color: #3b5998
+}
+#wa:hover
+{
+    color: #ff0000;
+}
+#yt:hover
+{
+    color: #ff0000;
+}
+/*//©2019 Advanced Micro Devices, Inc*/
+/*Footer Secondary*/
+
+
+
+#tb_departamento
+{
+ font-size: 10px;
+}
+#card_pug
+{
+  margin-top: 35px;
+}
+
+#img-map
+{
+  margin-top: 35px;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
